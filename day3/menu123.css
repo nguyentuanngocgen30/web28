@@ -1,0 +1,44 @@
+body {
+    background: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/nature-quotes-1557340276.jpg?crop=0.666xw:1.00xh;0.168xw,0&resize=640:*') no-repeat;
+    background-size: cover;
+    font-family: Arial;
+    color: white;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+
+}
+ul li {
+    float: left;
+    width: 200px;
+    border: 1px solid white;
+    height: 40px;
+    background-color: pink;
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 22px;
+    position: relative;
+    
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+ul li a:hover {
+    background-color: green;
+}
+ul li ul li {
+    display: none;
+}
+ul li:hover ul li {
+    display: block;
+}
+ ul ul ul {
+    margin-left: 200px;
+    top: 0px;
+    position: absolute;
+}
