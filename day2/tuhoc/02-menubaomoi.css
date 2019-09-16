@@ -1,0 +1,18 @@
+ul.menungang {
+    display: flex;
+    list-style: none;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menutren {
+    background-color: #2FA1B3;
+    height: 30px;
+    width: 100%;
+}
+ul.menungang a {
+    color: white;
+    text-decoration: none;
+    font-family: segoe ui light;
+    text-transform: uppercase;
+}
