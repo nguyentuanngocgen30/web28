@@ -1,0 +1,39 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    position: static;
+  }
+  .menu span {
+    display: flex;
+    position: relative;
+    justify-content: center;
+  }
+  .menu nav {
+    position: absolute;
+    top: 30px;
+    display: none;
+    justify-content: center;
+  }
+  .menu nav nav {
+    position: absolute;
+    left: 100px;
+    top: 0px;
+    display: none;
+    justify-content: center;
+  }
+  .menu span {
+    width: 100px;
+    height: 30px;
+    background-color: #D5B0AC;
+    color: #402E2A;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .menu span:hover {
+    cursor: pointer;
+    background-color: #9CD08F;
+    color: #FFFFFF;
+  }
+  .menu span:hover > nav { display: block; }
